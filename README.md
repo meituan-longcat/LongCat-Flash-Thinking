@@ -72,6 +72,7 @@ After high-value query selection, we synthesize corresponding high-quality
 solution trajectories based on a versatile environment with diverse tool APIs,
 including MCP servers and simulated tools for both single and multi-turn interactions.  
 
+For more details, please refer to the comprehensive [**LongCat-Flash-Thinking Technical Report**](https://github.com/meituan-longcat/LongCat-Flash-Thinking/blob/main/tech_report.pdf).
 
 ## Evaluation Results
 
@@ -145,7 +146,7 @@ SYSTEM:{system_prompt} [Round 0] USER:{query} /think_on ASSISTANT:
 
 In multi-turn scenarios, the prefix is constructed by concatenating the context with the latest user query:
 ```
-SYSTEM:{system_prompt} [Round 0] USER:{query} /think_on ASSISTANT:{response}</longcat_s>... [Round N-1] USER:{query} /think_on ASSISTANT:{response}</longcat_s> [Round N] USER:{query} /think_on ASSISTANT:
+SYSTEM:{system_prompt} [Round 0] USER:{query} /think_on ASSISTANT:{response}... [Round N-1] USER:{query} /think_on ASSISTANT:{response} [Round N] USER:{query} /think_on ASSISTANT:
 ```
 
 Here, $N$ denotes the $N+1$ -th round of user queries, with indexing starting from zero.
