@@ -31,7 +31,7 @@
 </div>
 
 <p align="center">
-  <a href="./tech_report.pdf"><b>Tech Report</b>&nbsp;📄</a>
+  <a href="https://arxiv.org/abs/2509.18883"><b>Tech Report</b>&nbsp;📄</a>
 </p>
 
 
@@ -72,7 +72,7 @@ After high-value query selection, we synthesize corresponding high-quality
 solution trajectories based on a versatile environment with diverse tool APIs,
 including MCP servers and simulated tools for both single and multi-turn interactions.  
 
-For more details, please refer to the comprehensive [**LongCat-Flash-Thinking Technical Report**](https://github.com/meituan-longcat/LongCat-Flash-Thinking/blob/main/tech_report.pdf).
+For more details, please refer to the comprehensive [**LongCat-Flash-Thinking Technical Report**](https://arxiv.org/abs/2509.18883).
 
 ## Evaluation Results
 
