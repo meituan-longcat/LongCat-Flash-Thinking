@@ -149,7 +149,7 @@ In multi-turn scenarios, the prefix is constructed by concatenating the context 
 SYSTEM:{system_prompt} [Round 0] USER:{query} /think_on ASSISTANT:{response}... [Round N-1] USER:{query} /think_on ASSISTANT:{response} [Round N] USER:{query} /think_on ASSISTANT:
 ```
 
-Here, $N$ denotes the $N+1$ -th round of user queries, with indexing starting from zero.
+Here, $N$ denotes the $N$ -th round of user queries, with indexing starting from zero.
 
 #### ToolCall
 
@@ -201,7 +201,7 @@ Please reason step by step, and put your final answer within \\boxed{}. /think_o
 
 #### Formal Reasoning
 
-LongCat-Flash-Thinking also support formal reasoning, like automatic theorem proving (ATP). The specific template is:
+LongCat-Flash-Thinking also supports formal reasoning, like automatic theorem proving (ATP). The specific template is:
 
 ```text
 [Round 0] USER:Think about and solve the following problem step by step in Lean 4.
@@ -236,6 +236,20 @@ It is the responsibility of developers and downstream users to understand and co
 
 Nothing in this Model Card should be interpreted as altering or restricting the terms of the MIT License under which the model is released. 
 
+## Citation
+We kindly encourage citation of our work if you find it useful.
+
+```
+@misc{meituan2025longcatflashthinkingtechnicalreport, 
+    title={LongCat-Flash-Thinking Technical Report}, 
+    author={Meituan}, 
+    year={2025}, 
+    eprint={2509.18883}, 
+    archivePrefix={arXiv}, 
+    primaryClass={cs.AI}, 
+    url={https://arxiv.org/abs/2509.18883}, 
+}
+```
 
 ## Contact
 Please contact us at <a href="mailto:longcat-team@meituan.com">longcat-team@meituan.com</a> or join our WeChat Group if you have any questions.
