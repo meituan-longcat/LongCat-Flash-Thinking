@@ -255,4 +255,4 @@ We kindly encourage citation of our work if you find it useful.
 Please contact us at <a href="mailto:longcat-team@meituan.com">longcat-team@meituan.com</a> or join our WeChat Group if you have any questions.
 
 #### WeChat Group
-<img src=figures/wechat_qrcode.png width="200px">
+<img src=figures/Wechat.png width="200px">
